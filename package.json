@@ -1,0 +1,30 @@
+{
+  "name": "DocuSign_quick_start_node_send_envelope",
+  "version": "1.0.0",
+  "description": "DocuSign simple node Envelopes::send",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon  --inspect-brk index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docusign-hackathons/eg"
+  },
+  "author": "DocuSign",
+  "license": "MIT",
+  "homepage": "https://github.com/docusign/eg-01-node-jwt#readme",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "dependencies": {
+    "docusign-esign": "^4.2.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "util.promisify": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
